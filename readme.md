@@ -1,3 +1,3 @@
 ## animação Css
 
-<img src="Captura.PNG" alt="Print">
+<img src="Capturar.PNG" alt="Print">
