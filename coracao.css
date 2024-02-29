@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+
+}
+.coracao{
+
+    font-size: 150px;
+    color: red;
+    animation: coracao .25s infinite alternate;
+    transform-origin: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@keyframes coracao {
+    to { scale: 1.4;} 
+
+}
+
+
+
+
+.coracao2 {
+    font-size: 150px;
+    color: red;
+    animation: coracao .25s initial ;
+    transform-origin: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.coracao2:hover{
+    color: aqua;
+    scale: 2.0;
+
+}
+   
+.coracao3{
+
+    font-size: 150px;
+    color: red;
+    transform-origin: center;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: coracao3 5s ;
+    animation-fill-mode: forwards;
+}
+@keyframes coracao3{
+
+    from {
+        margin-left: 100%;
+    }
+    to {
+
+        margin-left: 0%;
+        
+    }
+}
